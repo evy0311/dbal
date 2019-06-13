@@ -87,6 +87,9 @@ abstract class Type
     /** @deprecated Use {@see DefaultTypes::TEXT} instead. */
     public const TEXT = Types::TEXT;
 
+    /** @deprecated Use {@see DefaultTypes::CITEXT} instead. */
+    public const CITEXT = Types::CITEXT;
+
     /** @deprecated Use {@see DefaultTypes::TIME_MUTABLE} instead. */
     public const TIME = Types::TIME_MUTABLE;
 
@@ -120,6 +123,7 @@ abstract class Type
         Types::SMALLINT             => SmallIntType::class,
         Types::STRING               => StringType::class,
         Types::TEXT                 => TextType::class,
+        Types::CITEXT               => CITextType::class,
         Types::TIME_MUTABLE         => TimeType::class,
         Types::TIME_IMMUTABLE       => TimeImmutableType::class,
     ];

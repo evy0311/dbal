@@ -1136,6 +1136,7 @@ SQL
             'bool'          => 'boolean',
             'boolean'       => 'boolean',
             'text'          => 'text',
+            'citext'        => 'citext',
             'tsvector'      => 'text',
             'varchar'       => 'string',
             'interval'      => 'string',
